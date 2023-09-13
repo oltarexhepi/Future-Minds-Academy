@@ -1,84 +1,90 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Three Simple Tables</title>
-</head>
-<body>
-    <h2>Table 1 - Multiplication Table: </h2>
+  </head>
+  <body>
+    <!-- Table 1: Multiplication Table -->
     <table border="1" width="50%">
-        <!-- row 1-->
-        <tr>
-            <th>*</th>
-            <th>2</th>
-            <th>3</th>
-        </tr>
-        
-         <!-- row 2-->
-        <tr>
-            <th>2</th>
-            <td>4</td>
-            <td>6</td>
-        </tr>
-
-        <!-- row 3-->
-        <tr>
-            <th>3</th>
-            <td>6</td>
-            <td>9</td>
-        </tr>
-    </table>
-        
-    <h2>Table 2 - Invoice: </h2>
-    <table border="1" width="50%">
-       <!-- row 1-->
-        <tr>
-            <th>Product</th>
-            <th>Price</th>
-        </tr>
-
-        <!-- row 2-->
-        <tr>
-            <td>PC</td>
-            <td>300$</td>
-        </tr>
-
-        <!-- row 3-->
-        <tr>
-            <td>Mouse</td>
-            <td>70$</td>
-        </tr>
-
-        <!-- row 4-->
-        <tr>
-            <td>Keyboard</td>
-            <td>100$</td>
-        </tr>
-
-        <!-- row 5-->
-        <tr>
-            <th>Total</th>
-            <th>470$</th>
-        </tr>
-    </table>
-    
-    <h2>Table 3: </h2>
-    <table border="1" width="50%">
-        <tr>
-            <th>Favorite Website</th>
-             <td>Youtube</td>
-        </tr>
-
-        <tr>
-            <th>Favorite Sport</th>
-            <td>Football</td>
-        </tr>
-
-        <tr>
-            <th>Favorite dog breed</th>
-            <td><b>Pomeranian</b>  <img src="dog1.jpg" alt="German Shepherd" width="100px"></td>
-        </tr>
+      <caption>
+        Multiplication Table
+      </caption>
+      <tr>
+        <th>&times;</th>
+        <th>1</th>
+        <th>2</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>2</td>
+        <td>4</td>
+      </tr>
     </table>
 
+    <!-- Table 2: Invoice -->
+    <table border="1" width="50%">
+      <caption>
+        Invoice
+      </caption>
+      <tr>
+        <th>Item</th>
+        <th>Description</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Widget A</td>
+        <td>5</td>
+        <td>$10.00</td>
+        <td>$50.00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Widget B</td>
+        <td>3</td>
+        <td>$15.00</td>
+        <td>$45.00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Widget C</td>
+        <td>2</td>
+        <td>$20.00</td>
+        <td>$40.00</td>
+      </tr>
+      <tr>
+        <td colspan="4" align="right">Total:</td>
+        <td>$135.00</td>
+      </tr>
+    </table>
 
-</body>
+    <!-- Table 3: Another Table Inside -->
+    <table border="1" width="50%">
+      <caption>
+        Table 3
+      </caption>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>Row 1</td>
+        <td>Row 1 Data</td>
+      </tr>
+
+      <tr>
+        <td>Phone</th>
+        <td><img src="../[Week 1] Three images/dog1.jpg" alt="images" width="100px"></th>
+               </tr>
+    </table>
+  </body>
 </html>
