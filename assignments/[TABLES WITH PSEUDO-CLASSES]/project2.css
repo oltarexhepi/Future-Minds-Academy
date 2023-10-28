@@ -1,0 +1,41 @@
+body {
+    padding: 1em 2em;
+  }
+  
+ ol {
+    list-style: none;
+    padding: 0;
+    float: left;
+  }
+
+li {
+    text-align: center;
+    line-height: 2;
+    margin-top: 1px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li:nth-child(even) {
+    background-color: rgb(32, 12, 72);
+    color: white;
+}
+
+li:nth-child(1) {
+    color: black;
+    background-color: rgba(109, 113, 220, 0.826);
+    font-weight: bold;
+}
+
+li:nth-child(3) , li:nth-child(5) {
+    background-color: rgba(202, 162, 255, 0.912);
+    color: white;
+}
+
+
+  .one {
+    width: auto;
+    float: left;
+    margin-right: 2em;
+    
+  }
