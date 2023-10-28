@@ -1,0 +1,23 @@
+body {
+    background-image: url(nature-backgrounds.jpg);
+  }
+  
+  .main-title {
+    color: rgb(117, 78, 16);
+    background: linear-gradient(67deg, rgba(199, 224, 168, 0.782) 15%, rgba(152, 106, 121, 0.985) 65%);
+  }
+  
+  ul {
+    color: rgba(152, 106, 121, 0.822);
+    background: rgb(24, 24, 24, 0.6);
+  }
+  
+  .paragraph1 {
+    color: rgb(117, 78, 16);
+    background: linear-gradient(67deg, rgba(199, 224, 168, 0.5) 15%, rgba(152, 106, 121, 0.822) 65%);
+  }
+  
+  .paragraph2 {
+    color: rgb(117, 78, 16);
+    background: linear-gradient(67deg, rgba(199, 224, 168, 0.5) 15%, rgba(152, 106, 121, 0.822) 65%);
+  }
