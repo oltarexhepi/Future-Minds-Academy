@@ -1,0 +1,20 @@
+.box1 {
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 213, 240, 0.966);
+    border: 2px solid black;
+}
+.eye {
+    width: 280px;
+    float: left;
+    margin: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.eye:hover {
+    width: 310px;
+    border: 3px dashed red;
+    margin: 10px;
+}
