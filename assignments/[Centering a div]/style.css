@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    background-color: antiquewhite;
+    padding: 20px;
+    border: 2px black solid;
+}
+
+.flex-child {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text horizontally */
+}
+
+.flex-child h1, .flex-child h2 {
+    margin: 0;
+}
