@@ -1,0 +1,482 @@
+* {
+    box-sizing: border-box;
+    cursor: url(images/crosshair.png), crosshair;
+    width: auto;
+    height: auto;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(images1/olta.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: fadeOut 4s ease forwards;
+  }
+  
+  @font-face {
+    font-family: 'Garamond', sans-serif;                                               
+    src: url('fonts/Garamond-Regular.ttf') format('truetype');
+}
+  @keyframes fadeOut {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /*-- CSS FOR HOME -- */
+  header h1 {
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    font-size: 50px;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-family: "Garamond, serif";
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(252, 1, 168, 0.3);
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgba(104, 103, 103, 0.2);
+    border: 2px solid rgba(255, 0, 136);
+    transition: 0.9s;
+  }
+  
+  #about-me, #education, #education:hover #underlist, #myskills, #myprojects, #myprojects:hover a, #projekti1, #projekti1:hover, #projekti2, #projekti2:hover, #projekti3, #projekti3:hover, #contactform, #connectwithme, #backhome a {
+    color: white;
+  }
+  
+  #about-me, #education, #myskills, #myprojects, #contactform, #connectwithme, #projekti1, #projekti2, #projekti3 {
+    transition: all 0.8s;
+    z-index: 10;
+    position: relative;
+  }
+  
+  #about-me:hover, #education:hover, #myskills:hover, #myprojects:hover, #contactform:hover, #connectwithme:hover, #projekti1:hover, #projekti2:hover, #projekti3:hover {
+    z-index: 11;
+  }
+  
+  #about-me {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 900px;
+    height: 620px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  #about-me:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 1.2s ease-in-out;
+    opacity: 0 1;
+    animation-duration: 5s;
+    transform: scale(1.2);
+  }
+  
+  #about-me:not(:hover) {
+    transition: transform 2.2s ease;
+    transform: scale(1);
+    transition: all 1.2s ease-in-out;
+  }
+  
+  #about-me:hover h2 {
+    color: rgba(255, 0, 136);
+    transition: all 2s ease-in-out;
+    transition-duration: 2.2s;
+  }
+  
+  #about-me p {
+    width: 860px;
+    height: 85px;
+  }
+  
+  #about-me:hover p {
+    color: rgba(255, 0, 136);
+    transition: all 2.2s ease-in-out;
+    transition-duration: 2.2s;
+  }
+  
+  #about-me h2 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    font-size: 40px;
+  }
+  
+  .fotoprofilit {
+    width: 340px;
+    height: 280px;
+    border-radius: 15px;
+    border: 2px solid  rgba(255, 0, 136);
+    margin-bottom: 40px;
+  }
+  
+  #education {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    font-size: 22px;
+    padding: 5px;
+  }
+  
+  #education ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-family: "Garamond, serif";
+    margin-left: 24px;
+    letter-spacing: 3px;
+  }
+  
+  #education:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 1.2s ease-in-out;
+    opacity: 0 1;
+    animation-duration: 5s;
+    transform: scale(1.2);
+  }
+  
+  #education:not(:hover) {
+    transition: transform 2.2s ease;
+    transform: scale(1);
+    transition: all 1.2s ease-in-out;
+  }
+  
+  #education li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  #myskills {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 900px;
+    height: 350px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  #myskills:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+    animation: fadeIn 7s ease forwards;
+    transition-duration: 5s ease forwards;
+    transform: scale(1.2);
+  }
+  
+  #myskills:not(:hover) {
+    transition: transform 2.2s ease;
+    transform: scale(1);
+    transition: all 2.2s ease-in-out;
+  }
+  
+  #myskills ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-family: "Garamond, serif";
+    margin-left: 20px;
+  }
+  
+  #myskills li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  #left1 {
+    float: right;
+  }
+  
+  #right1 {
+    float: left;
+  }
+  
+  #myskills:hover .ulskills {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.8s;
+  }
+  
+  #myprojects {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  #myprojects ol {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  #myprojects:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+    animation: fadeIn 7s ease forwards;
+    transition-duration: 5s ease forwards;
+    transform: scale(1.2);
+  }
+  
+  #myprojects:not(:hover) {
+    transition: transform 2.2s ease;
+    transform: scale(1);
+    transition: all 2.2s ease-in-out;
+  }
+  
+  #myprojects a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    line-height: 20px;
+  }
+  
+  #myprojects:hover a {
+    padding: 2px;
+    transition: 0.9s;
+    color: aqua;
+    transition: 0.9s;
+  }
+  
+  footer {
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "Garamond, serif";
+    color: white;
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  footer:hover {
+    color: black;
+    background-color: rgba(10, 10, 10, 0.392);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+  }
+  /* Css for projects*/
+  #projekti1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "TiltNeon-Regular";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 850px;
+    height: 550px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  #projekti1:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 1.2s ease-in-out;
+    animation-duration: 5s;
+    transform: scale(1.2);
+  }
+  
+  .projektfoto1 {
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+  
+  #projekti2 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "TiltNeon-Regular";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 850px;
+    height: 430px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  #projekti2:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 1.2s ease-in-out;
+    animation-duration: 5s;
+    transform: scale(1.2);
+  }
+  
+  .projektfoto2 {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+  
+  #projekti3 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "TiltNeon-Regular";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 850px;
+    height: 550px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  #projekti3:hover {
+    color: rgba(255, 0, 136);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 1.2s ease-in-out;
+    animation-duration: 5s;
+    transform: scale(1.2);
+  }
+  
+  .projektfoto3 {
+    width: 260px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 2%;
+  }
+  /* Css for contact */
+  #contactform, #connectwithme {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 0, 123, 0.8);
+    font-family: "TiltNeon-Regular";
+    background-color: rgba(252, 1, 168, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  #contactform:hover {
+    color: rgba(255, 0, 132, 0.741);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+  }
+  
+  .forma input {
+    background-color: rgba(10, 10, 10, 0.736);
+    margin: 10px;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+    color: rgba(255, 0, 136);
+    width: 250px;
+    height: 40px;
+  }
+  
+  .forma textarea {
+    background-color: rgb(24, 24, 24, 0.9);
+    width: 500px;
+    height: 150px;
+    resize: none;
+    margin: 10px;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .forma button {
+    background-color: rgb(24, 24, 24, 0.9);
+    resize: none;
+    margin: 10px;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+    color: rgba(255, 0, 162, 0.8);
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .forma:hover input:hover, button:hover, textarea:hover {
+    color: rgba(255, 0, 136);
+    transition: 0.8s;
+    border: 2px solid ;
+    border-radius: 10px;
+    transition: 0.9s;
+  }
+  
+  #backhome a {
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline black;
+  }
+  
+  #connectwithme img {
+    width: 110px;
+    cursor: pointer;
+  }
+  
+  .BackToTop {
+    width: 70px;
+    cursor: pointer;
+    float: right;
+  }
+  #line1 {width: 50%; color: white;}
